@@ -1,0 +1,473 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'about/aboutstyle.css' %}">
+    <link rel="stylesheet" href="{% static 'about/navbar.css' %}">
+    <title>About Us</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'about/style/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'about/style/css/plugins.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'about/style/revolution/css/settings.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'about/style/revolution/css/layers.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'about/style/revolution/css/navigation.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'about/style/type/type.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'about/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'about/style/css/color/purple.css' %}">
+    <link href="{% static 'about/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+  crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css}">
+  <!-- Bootstrap CSS File -->
+  <link rel="stylesheet" href="https://cdn.js' %}delivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css}" >
+
+  <!-- Libraries CSS Files -->
+ </head>
+<body>
+    <!--header-->
+  <header class="top-header">
+    <div class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+          <img height="70px" src="{% static 'img/nlogb2.png' %}" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-align-right text-light"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mr-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="{% url 'School:Index' %}">HOME
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'School:About' %}">ABOUT</a>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="dropdown">
+                <a href="#" class="nav-link">SCHOOL</a>
+                <div class="dropdown-content">
+                  <a href="{% url 'School:Dance' %}">DANCE</a>
+                  <a href="{% url 'School:Music' %}">MUSIC</a>
+                  <a href="{% url 'School:Acting' %}">ACTING</a>
+                  <a href="{% url 'School:Finearts' %}">FINE ARTS</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="dropdown">
+                <a href="#" class="nav-link">PROGRAMS</a>
+                <div class="dropdown-content">
+                  <a href="{% url 'School:Dance_Course' %}">DANCE</a>
+                  <a href="{% url 'School:Music_Course' %}">MUSIC</a>
+                  <a href="{% url 'School:Acting_Course' %}">ACTING</a>
+                  <a href="{% url 'School:Finearts' %}">FINE ARTS</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'School:Team' %}">TEAM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'School:Contact' %}">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container heading text-center" data-aos="zoom-in">
+        <h1>ABOUT US</h1>
+        <p style="font-size: 1.0rem; color:white ;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae excepturi officia accusamus minus ipsa reiciendis ad maxime dolor, vel iusto!</p>
+    </div>
+    </div>
+    
+  </header>
+  <!--header-->
+  <div class="wrapper light-wrapper" style="background-color: white !important;">
+    <div class="container inner">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2 text-center" data-aos="fade-left">
+          <div>
+            <figure><img src="style/images/art/about7.png" alt="" /></figure>
+            <div class="row counter counter-s position-absolute" style="top: 45%; right: 8%;">
+              <div class="col-md-10 text-center">
+                <div class="box bg-white shadow">
+                  <h3><span class="value">50</span>+</h3>
+                  <p>Completed <br class="d-md-none" />Courses</p>
+                </div>
+                <!--/.box -->
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+        </div>
+        <!--/column -->
+        <div class="space30 d-none d-md-block d-lg-none"></div>
+        <div class="col-lg-6 pr-60 pr-md-15" data-aos="fade-right">
+          <h2 class="section-title">Who we are ?</h2>
+          <p class="lead" style="font-size: 18px;">We specialize in web, mobile, brand & product design. We love to turn ideas into beautiful things Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia porro ex unde dignissimos. Repudiandae, neque maiores. Officiis atque, cum accusamus praesentium necessitatibus consequatur neque recusandae suscipit quidem, debitis voluptates quisquam in est esse distinctio? Voluptas, expedita nisi atque voluptatem ratione, debitis eius assumenda recusandae quidem, vero sit! Quibusdam, obcaecati deleniti! .</p>
+          <div class="space20"></div>
+          <ul class="progress-list">
+            <li>
+              <p>DANCE SCHOOL</p>
+              <div class="progressbar line pink" data-value="100"></div>
+            </li>
+            <li>
+              <p>MUSIC SCHOOL</p>
+              <div class="progressbar line blue" data-value="80"></div>
+            </li>
+            <li>
+              <p>ACTING SCHOOL</p>
+              <div class="progressbar line green" data-value="85"></div>
+            </li>
+            <li>
+              <p>FINE ART SCHOOL</p>
+              <div class="progressbar line purple" data-value="90"></div>
+            </li>
+          </ul>
+          <!-- /.progress-list -->
+        </div>
+        <!--/column -->
+      </div>
+      <!--/.row -->
+      <div class="space60"></div>
+      <div class="row text-center">
+        <div class="col-md-6 col-lg-3" data-aos="zoom-in-up">
+          <div class="box bg-pink shadow inverse-text">
+            <div class="icon color-white fs-42 mb-20"> <i class="icofont-code"></i> </div>
+            <h5>DANCE SCHOOL</h5>
+            <p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida.</p>
+          </div>
+          <!--/.box -->
+        </div>
+        <!--/column -->
+        <div class="col-md-6 col-lg-3" data-aos="zoom-in-up">
+          <div class="box bg-blue shadow inverse-text">
+            <div class="icon color-white fs-42 mb-20"> <i class="icofont-music-notes"></i> </div>
+            <h5>MUSIC SCHOOL</h5>
+            <p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida</p>
+          </div>
+          <!--/.box -->
+        </div>
+        <!--/column -->
+        <div class="space30 d-none d-md-block d-lg-none"></div>
+        <div class="col-md-6 col-lg-3" data-aos="zoom-in-up">
+          <div class="box bg-green shadow inverse-text">
+            <div class="icon color-white fs-42 mb-20"> <i class="icofont-paint"></i> </div>
+            <h5>FINE ART SCHOOL</h5>
+            <p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida.</p>
+          </div>
+          <!--/.box -->
+        </div>
+        <!--/column -->
+        <div class="col-md-6 col-lg-3" data-aos="zoom-in-up">
+          <div class="box bg-purple shadow inverse-text">
+            <div class="icon color-white fs-42 mb-20"> <i class="icofont-smart-phone"></i> </div>
+            <h5>ACTING SCHOOL</h5>
+            <p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida.</p>
+          </div>
+          <!--/.box -->
+        </div>
+        <!--/column -->
+      </div>
+      <!--/.row -->
+    </div>
+    <!-- /.container -->
+  </div>
+ <!-- /.wrapper -->
+ <div class="wrapper light-wrapper mb-5" data-aos="fade-up" style="background-color: white!important;">
+    <div class="container inner">
+      <h3 class="title-color text-center">Feathers in Our Cap</h3>
+      <div class="space40"></div>
+      <div class="grid-view">
+        <div class="carousel owl-carousel text-center" data-margin="60" data-dots="true" data-autoplay="false" data-autoplay-timeout="5000" data-responsive='{"0":{"items": "1"}, "768":{"items": "2"}, "992":{"items": "3"}}'>
+          <div class="item">
+            <figure class="img-blob blob1 mb-25"><img src="style/images/art/te1.jpg" style="width: 10rem" alt="" /></figure>
+            <h4 class="mb-15">Piyush Mishra</h4>
+            <div class="meta">Financial Analyst</div>
+            <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus amet.</p>
+            <ul class="social social-s ml-auto">
+              <li><a href="#"><i class="jam jam-twitter"></i></a></li>
+              <li><a href="#"><i class="jam jam-facebook"></i></a></li>
+              <li><a href="#"><i class="jam jam-instagram"></i></a></li>
+            </ul>
+          </div>
+          <!-- /.item -->
+          <div class="item">
+            <figure class="img-blob blob1 mb-25"><img src="style/images/art/te2.jpg" style="width: 10rem" alt="" /></figure>
+            <h4 class="mb-15">Dharmesh YELANDE</h4>
+            <div class="meta">Marketing Specialist</div>
+            <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus amet.</p>
+            <ul class="social social-s ml-auto">
+              <li><a href="#"><i class="jam jam-twitter"></i></a></li>
+              <li><a href="#"><i class="jam jam-facebook"></i></a></li>
+              <li><a href="#"><i class="jam jam-instagram"></i></a></li>
+            </ul>
+          </div>
+          <!-- /.item -->
+          <div class="item">
+            <figure class="img-blob blob1 mb-25"><img src="style/images/art/te3.jpg" style="width: 10rem" alt="" /></figure>
+            <h4 class="mb-15">Anbhav Sinha</h4>
+            <div class="meta">Sales Manager</div>
+            <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus amet.</p>
+            <ul class="social social-s ml-auto">
+              <li><a href="#"><i class="jam jam-twitter"></i></a></li>
+              <li><a href="#"><i class="jam jam-facebook"></i></a></li>
+              <li><a href="#"><i class="jam jam-instagram"></i></a></li>
+            </ul>
+          </div>
+          <!-- /.item -->
+          <div class="item">
+            <figure class="img-blob blob1 mb-25"><img src="style/images/art/te4.jpg" style="width: 10rem" alt="" /></figure>
+            <h4 class="mb-15">Puneet Pathak</h4>
+            <div class="meta">Investment Planner</div>
+            <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus amet.</p>
+            <ul class="social social-s ml-auto">
+              <li><a href="#"><i class="jam jam-twitter"></i></a></li>
+              <li><a href="#"><i class="jam jam-facebook"></i></a></li>
+              <li><a href="#"><i class="jam jam-instagram"></i></a></li>
+            </ul>
+          </div>
+          <!-- /.item -->
+          <div class="item">
+            <figure class="img-blob blob1 mb-25"><img src="style/images/art/te5.jpg" style="width: 10rem" alt="" /></figure>
+            <h4 class="mb-15">Vishal Mishra</h4>
+            <div class="meta">Sales Specialist</div>
+            <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus amet.</p>
+            <ul class="social social-s ml-auto">
+              <li><a href="#"><i class="jam jam-twitter"></i></a></li>
+              <li><a href="#"><i class="jam jam-facebook"></i></a></li>
+              <li><a href="#"><i class="jam jam-instagram"></i></a></li>
+            </ul>
+          </div>
+          <!-- /.item -->
+        </div>
+        <!-- /.owl-carousel -->
+      </div>
+      <!-- /.grid-view -->
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- /.wrapper -->
+
+<!--==========================
+      Contact
+    ============================-->
+    <section id="call-to-action" class="wow fadeInUp">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9 text-center text-lg-left">
+              <h3 class="cta-title">Apply Here</h3>
+              <p class="cta-text"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-lg-3 cta-btn-container text-center">
+              <a class="cta-btn align-middle" href="../application/application_form.html">Apply</a>
+            </div>
+          </div>
+  
+        </div>
+      </section><!-- #contact -->
+<!--why to join-->
+<div class="container inner1 mt-5 mb-5">
+    <div class="row align-items-center">
+        <div class="col-lg-6 " id="image">
+            <figure><img src="p4.jpg" class="p4 rounded mx-auto d-block" data-aos="fade-right" style="width: 60%;height: 50%; border-radius: 10px; opacity: 1;"></figure>
+        </div>
+        <!--/column -->
+
+        <div class="col-lg-6 pl-60 pl-md-15 pr-1" data-aos="fade-left">
+            <div class="container">
+                <h3>Why to join ?</h3>
+                <div class=mt-4></div>
+                <p style="font-size: 18px;" >Seven Institue Of Performing Arts has professional and trained Dance Guru’s and Sangeet Acharya’s for training to Dance and Sangeet
+                  shishya’s </p>
+                <p style="font-size: 18px;">The Acting & Drama faculty facilitates with the outdoor work and stage show .</p> 
+                <p style="font-size: 18px;">The best part of SIPA is its peaceful and healthy environment.</p>
+                <p style="font-size: 18px;">The instruments and other facilities are provided by SIPA.</p>
+                <p style="font-size: 18px;">There is no bar of timing for learning and practicing in SIPA’s premises.</p>
+                <p style="font-size: 18px;">Yoga practice is compulsory for all the members and students.</p>
+                <div class="space10"></div>
+                <a href="#" class="btn join-btn" style=" background:linear-gradient(95deg, rgb(255, 94, 98) 20%, rgb(255, 153, 102) 80%);color: white;">Join Now</a>
+            </div>
+        </div>
+        <!--/column -->
+    </div>
+</div>
+<!--why to join-->
+<!--vision and mission-->
+<div class="container-fluid">
+    <div class="row">
+    <div class="col-md-6 p-5 vision" data-aos="fade-right">
+        <h3>Vision</h3>
+       <p>To express and share the power of dance and performing arts and its
+        ability to change the world.</p>
+    </div>
+    <div class="col-md-6 p-5 mission" data-aos="fade-left">
+        <h3>mission</h3>
+        <p>As a creative hub, we seek to become the bridge between your
+          struggles and your success by serving you with our knowledge of
+          performing arts. </p>
+    </div>
+</div>
+</div>
+<!--vision and mission-->
+<!--philosophy-->
+<div class="container">
+    <div class="row mt-5 mb-5 text-center philosophy">
+        <h4>Our Philosophy</h4>
+    </div>
+        <p class="text-center bold">"Aim for the moon, you will at least become a star."</p>
+        <p class="text-center">Creativity is an art of expressing our thoughts in different and
+          unique style. We nourish the artist in you, so that
+          You can express yourself and the fire within you, to enlighten
+          the world. </p>
+    
+</div>
+<!--philosophy-->
+  <footer id="footer" class="section-bg">
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+
+                <div class="col-sm-6">
+
+                  <div class="footer-info">
+                    <h3>SIPA</h3>
+                    <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+                  </div>
+
+                  <div class="footer-newsletter">
+                    <h4>Our Newsletter</h4>
+                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem.</p>
+                    <form action="" method="post">
+                      <input type="email" name="email"><input type="submit"  value="Subscribe">
+                    </form>
+                  </div>
+
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">About us</a></li>
+                      <li><a href="#">Dance</a></li>
+                      <li><a href="#">Music</a></li>
+                      <li><a href="#">FineArts</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="footer-links">
+                    <h4>Contact Us</h4>
+                    <p>
+                      A108 Adam Street <br>
+                      New York, NY 535022<br>
+                      United States <br>
+                      <strong>Phone:</strong> +1 5589 55488 55<br>
+                      <strong>Email:</strong> info@example.com<br>
+                    </p>
+                  </div>
+
+                  <div class="social-links btn">
+                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                  </div>
+
+                </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="form">
+              
+              <h4>Send us a message</h4>
+              <p>Eos ipsa est voluptates. Nostrum nam libero ipsa vero. Debitis quasi sit eaque numquam similique commodi harum aut temporibus.</p>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+
+                <div id="sendmessage">Your message has been sent. Thank you!</div>
+                <div id="errormessage"></div>
+
+                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+              </form>
+            </div>
+
+          </div>
+
+          
+
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+  <script src="{% static 'about/style/js/jquery.min.js' %}"></script>
+  <script src="{% static 'about/style/js/popper.min.js' %}"></script>
+  <script src="{% static 'about/style/js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'about/style/revolution/js/jquery.themepunch.tools.min.js' %}"></script>
+  <script src="{% static 'about/style/revolution/js/jquery.themepunch.revolution.min.js' %}"></script>
+  <script src="{% static 'about/style/revolution/js/extensions/revolution.extension.actions.min.js' %}"></script>
+  <script src="{% static 'about/style/revolution/js/extensions/revolution.extension.carousel.min.js' %}"></script>
+  <script src="{% static 'about/style/revolution/js/extensions/revolution.extension.kenburn.min.js' %}"></script>
+  <script src="{% static 'about/style/revolution/js/extensions/revolution.extension.layeranimation.min.js' %}"></script>
+  <script src="{% static 'about/style/revolution/js/extensions/revolution.extension.migration.min.js' %}"></script>
+  <script src="{% static 'about/style/revolution/js/extensions/revolution.extension.navigation.min.js' %}"></script>
+  <script src="{% static 'about/style/revolution/js/extensions/revolution.extension.parallax.min.js' %}"></script>
+  <script src="{% static 'about/style/revolution/js/extensions/revolution.extension.slideanims.min.js' %}"></script>
+  <script src="{% static 'about/style/revolution/js/extensions/revolution.extension.video.min.js' %}"></script>
+  <script src="{% static 'about/style/js/plugins.js' %}"></script>
+  <script src="{% static 'about/style/js/scripts.js' %}"></script>
+
+  <script>
+let navbar = $(".navbar");
+
+$(window).scroll(function () {
+  // get the complete hight of window
+  let oTop = $(".aboutsection").offset().top - window.innerHeight;
+  if ($(window).scrollTop() > 100) {
+    navbar.addClass("sticky");
+    $(".nav-link").hover(function(){
+      $(this).css' %}("color", "#616161");
+    }, function(){
+      $(this).css' %}("color", "#fff");
+    });
+  }else {
+    navbar.removeClass("sticky");
+  }
+});
+
+  </script>
+</body>
+</html>

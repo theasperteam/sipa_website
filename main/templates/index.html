@@ -1,0 +1,184 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="IE-edge" http-equiv="X-UA-Compatible"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <title>Seven Institute of Performing Arts</title>
+        <!--web-icon------------------->
+        <link href="{% static 'favicon.ico' %}" rel="shortcut icon"/>
+        <!--stylesheet-------------------->
+        <link href="{% static 'main-styles.css' %}" rel="stylesheet" type="text/css"/>
+        <!--FontAwesome-------->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+
+        <script crossorigin="anonymous" src="https://kit.fontawesome.com/70a642cd7c.js"></script>
+    </head>
+    <body>
+            <!--main-section--------------->
+        <header>
+
+            <section class="main row" >
+            <!--logo------------->
+                <div class="logo">
+                    <a href="#"><img alt="" src="{% static 'nlogb2.png' %}" /> </a>
+                </div>
+
+                <div class="socialtop">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    
+                </div>
+
+           
+            <!--social-------->
+                
+            
+            </section>
+
+            <section class="product">
+                <!--heading------------>
+           
+            <!--product-container----------------->
+            <div class="product-container row">
+
+                  
+                      <div class="font-card robotoslab-card col-xl-3 col-md-4 col-12">
+                        <div class="icon">
+                          <i class="fas fa-school"></i>
+  
+                          </div>
+                        <h3 class="card-heading">SCHOOL OF PERFORMING ARTS</h3>
+                       
+                        <p class="font--roboto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet. Quae aperiam adipisci ipsam ullam rerum quaerat voluptatum quam fugit</p>
+                        <a target="_blank" href="{% url 'School:Index' %}" class="explore-button">Visit</a>
+                      </div>
+                  
+                      <div class="font-card robotoslab-card  col-xl-3 col-md-4 col-12">
+                        <div class="icon">
+                          <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <h3 class="card-heading">EVENT <br> MANAGEMENT</h3>
+                        <p class="font--roboto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet. Quae aperiam adipisci ipsam ullam rerum quaerat voluptatum quam fugit</p>
+                        <a target="_blank" href="{% url 'Events:Index' %}" class="explore-button">Visit</a>
+                      </div>
+                  
+                      <div class="font-card robotoslab-card  col-xl-3 col-md-4 col-12">
+                        <div class="icon">
+                          <i class="fas fa-film"></i>
+                        </div>
+                        <h3 class="card-heading">PRODUCTION <br> HOUSE</h3>
+                        <p class="font--roboto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet. Quae aperiam adipisci ipsam ullam rerum quaerat voluptatum quam fugit</p>
+                        <a target="_blank" href="{% url 'Productions:Index' %}" class="explore-button">Visit</a>
+                      </div>
+
+                
+            </div>
+
+
+
+
+            <!--box-4------------>
+            
+            
+            </section>
+
+        </header>
+
+        <section id="team" class="section-bg">
+
+
+
+            
+            <div class="wrapper light-wrapper ">
+              <div class="container inner">
+                <h2 class="section-title mb-40 text-center  textcolor">OUR MENTORS</h2>
+                
+                <div class="row text-center">
+                  <div class="col-md-4">
+                    <figure class="img-blob blob1 mb-25"><img src="{% static 'te1.jpg' %}" style="width: 15rem" alt="" /></figure>
+                    <h4 class="mb-15">Connor Gibson</h4>
+                    <div class="meta mb-5 text-muted text-uppercase">Financial Analyst</div>
+                    <ul class="social social-s ml-auto">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      
+                    </ul>
+                  </div>
+                  <!--/column -->
+                  <div class="col-md-4">
+                    <figure class="img-blob blob1 mb-25"><img src="{% static 'te2.jpg' %}" style="width: 15rem" alt="" /></figure>
+                    <h4 class="mb-15">Coriss Ambady</h4>
+                    <div class="meta mb-5 text-muted text-uppercase">Marketing Specialist</div>
+                    <ul class="social social-s ml-auto">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    
+                    </ul>
+                  </div>
+                  <!--/column -->
+                  <div class="col-md-4">
+                    <figure class="img-blob blob1 mb-25"><img src="{% static 'te3.jpg' %}" style="width: 15rem" alt="" /></figure>
+                    <h4 class="mb-15">Barclay Widerski</h4>
+                    <div class="meta mb-5 text-muted text-uppercase">Sales Manager</div>
+                    <ul class="social social-s ml-auto">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      
+                    </ul>
+                  </div>
+                  <!--/column -->
+                </div>
+                <!--/.row -->
+              </div>
+              <!-- /.container -->
+            </div>                      
+                               
+
+          </section>
+
+        <section id="call-to-action">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-9 text-center text-lg-left">
+                  <h3 class="cta-title">Contact Us</h3>
+                  <p class="cta-text"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="col-lg-3 cta-btn-container text-center">
+                  <a class="cta-btn align-middle mt-4" href="#">Contact</a>
+                </div>
+              </div>
+      
+            </div>
+          </section>
+
+        <footer class="text-center text-muted">
+           <p>&#169; 2021 SIPA All Rights Reserved. | Developed by<b> <a style="color:#fe4164;" href="http://theasperteam.in">The Asper Team</a> </b></p>
+          </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+        <script>
+
+          $( ".explore-button" ).hover(function() {
+            $( this ).parent().addClass("hovered-card");
+          }, function() {
+            $( this ).parent().removeClass("hovered-card");
+          }
+        );
+  
+
+        </script>
+    </body>
+</html>
+        

@@ -1,0 +1,320 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title>SIPA | Events | Contact</title>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}"/>
+	<link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}"/>
+	<link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}"/>
+	<link rel="stylesheet" href="{% static 'css/nice-select.css' %}"/>
+	<link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}"/>
+	<link rel="stylesheet" href="{% static 'css/slicknav.min.css' %}"/>
+	<link rel="stylesheet" href="{% static 'css/animate.css' %}"/>
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+
+	<!--web-icon------------------->
+	<link href="{% static 'favicon.ico' %}" rel="shortcut icon"/>
+
+
+
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	{% if error %}
+	<script>alert("Message Sent!");</script>
+	{% endif %}
+
+	<!-- Header Section -->
+	<header class="header-section">
+		
+		<div class="header-bottom">
+			<a href="{% url 'Main:Index' %}" class="site-logo">
+				<img src="{% static 'img/nlogb2.png' %}" alt="">
+			</a>
+			<div class="hb-right">
+
+				<div class="hb-switch" id="infor-switch">
+					<img src="{% static 'img/icons/bars.png' %}" alt="">
+				</div>
+			</div>
+			<div class="container fwsb">
+				<ul class="main-menu">
+					<li><a href="{% url 'Events:Index' %}">Home</a></li>
+					<li><a href="{% url 'Events:About' %}">About</a></li>
+					<li><a href="#">Services</a>
+						<ul class="sub-menu">
+							<li><a href="{% url 'Events:Corporate' %}">Corporate</a></li>
+							<li><a href="{% url 'Events:Wedding' %}">Wedding</a></li>
+							<li><a href="{% url 'Events:Government' %}">Government</a></li>
+							<li><a href="{% url 'Events:Sports' %}">Sports</a></li>
+							<li><a href="{% url 'Events:Cultural' %}">Cultural</a></li>
+						</ul>
+					</li>
+					<li><a href="{% url 'Events:Team' %}">Our Team</a>
+					</li>
+					<li><a href="{% url 'Events:Gallery' %}">Gallery</a></li>
+					<li><a href="{% url 'Events:Contact' %}" class="active">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<!-- Header Section end -->
+
+
+	<!-- Infor Model -->
+	<div class="infor-model-warp">
+		<div class="infor-model d-flex align-items-center">
+			<div class="infor-close">
+				<i class="material-icons">close</i>
+			</div>
+			<div class="infor-middle">
+				<a href="#" class="infor-logo ">
+					<img src="{% static 'img/wfc1.png' %}" alt="">
+				</a>
+				<p>We are efficient in handling every conceivable type of event, whether corporate, party, wedding, or any other event. Events range from small group meetings to arena-size conferences, concert sound systems, or anything else; nothing is difficult for us to handle.</p>
+				
+				<form class="infor-form mt-5">
+					<input type="text" placeholder="Your Email">
+					<button><img src="{% static 'img/icons/send.png' %}" alt=""></button>
+				</form>
+				<div class="insta-social">
+					<a href="https://www.linkedin.com/company/seven-institute-of-performing-arts/"><i class="fa fa-linkedin"></i></a>
+					
+					<a href="https://www.instagram.com/sipa.dance/
+					"><i class="fa fa-instagram"></i></a>
+					<a href="https://www.facebook.com/7institute/
+					"><i class="fa fa-facebook"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Infor Model end -->
+	                                                                              
+	<!-- Page top Section -->
+	<section class="page-top-section set-bg" data-setbg="{% static 'img/header-bg/contact-us-banner.jpg' %}">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7 m-auto text-white">
+					<h1>CONTACT</h1>
+					<hr class="hrtop">
+					<p>Just a call away</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Page top Section end -->
+
+	<!-- Contact Section -->
+	<section class="contact-page-section spad overflow-hidden">
+		<div class="container">
+			<div class="contact-map"><iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=2nd%20Floor,%20Malhar%20Mega%20Mall,%20Near%20C21%20Mall,%20Vijay%20Nagar.%20Indore%20452001+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+	
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="con-info">
+						<h3>Visit </h3>
+						<ul>
+							<li><i class="material-icons">map</i>&nbsp;&nbsp;&nbsp;2nd Floor, Malhar Mega Mall,<br>
+																	&nbsp;&nbsp;&nbsp;Near C21 Mall, Vijay Nagar,<br>
+																    &nbsp;&nbsp;&nbsp;Indore 452001</li>
+						</ul>
+					</div>
+					<div class="con-info">
+						<h3>Message Us</h3>
+						<ul>
+							<li><i class="material-icons">phone</i>&nbsp;&nbsp;&nbsp;9522070070, 9522071071</li>
+							<li><i class="material-icons">email</i>&nbsp;&nbsp;&nbsp;sipa7even@gmail.com</li>
+						</ul>
+					</div>
+					
+					<div class="contact-social">
+						<a href="https://www.linkedin.com/company/seven-institute-of-performing-arts/"><i class="fa fa-linkedin"></i></a>
+					
+					<a href="https://www.instagram.com/sipa.dance/
+					"><i class="fa fa-instagram"></i></a>
+					<a href="https://www.facebook.com/7institute/
+					"><i class="fa fa-facebook"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-8">
+					<form class="singup-form" action="#" method="post">
+						{% csrf_token %}
+						<div class="row">
+							<div class="col-md-6">
+								<input type="text" placeholder="Name" name="name">
+							</div>
+							
+							<div class="col-md-6">
+								<input type="text" placeholder="Your Email" name="email">
+							</div>
+							<div class="col-md-6">
+								<input type="text" placeholder="Phone Number" name="phone">
+							</div>
+							<div class="col-md-6">
+								<div class="input-group mb-3">
+									<select name="cat" class="custom-select " id="inputGroupSelect01" >
+									  <option >Choose Category </option>
+									  <option value="Corporate Event">Corporate Event</option>
+									  <option value="Government Event">Government Event</option>
+									  <option value="Wedding Event">Wedding Event</option>
+									  <option value="Sports Event">Sports Event</option>
+									  <option value="Cultural Event">Cultural Event</option>
+									</select>
+								  </div>
+							</div>
+							<div class="col-md-12">
+								<textarea placeholder="Message" name="message"></textarea>
+								<button class="site-btn sb-gradient">Send Message</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Contacctc Section end -->
+
+	<section id="call-to-action">
+		<div class="container">
+		  <div class="row">
+			<div class="col-lg-9 text-center text-lg-left">
+			  <h3 class="cta-title mb-2">Gallery</h3>
+			  <p class="cta-text">We are efficient in handling every conceivable type of event, whether corporate, party, wedding, or any other event. Events range from small group meetings to arena-size conferences, concert sound systems, or anything else; nothing is difficult for us to handle.
+			</p>
+			</div>
+			<div class="col-lg-3 cta-btn-container text-center">
+			  <a class="cta-btn align-middle mt-4" href="{% url 'Events:Gallery' %}">View Gallery</a>
+			</div>
+		  </div>
+  
+		</div>
+	  </section>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="myModalg" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document" style="max-width: 40rem;">
+	  <div class="modal-content">
+  
+		
+		<div class="modal-body">
+  
+		 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>        	  
+				  <img src="{% static 'img/classes/1.jpg' %}" alt="" id="image" class="img-fluid">			  			  
+		</div>
+  
+	  </div>
+	</div>
+  </div> 
+	
+	<!-- Gallery Section end -->
+
+	<!-- Footer Section -->
+	<footer class="footer-section" style="background-color: #f9f2f0;">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-sm-6">
+					<div class="footer-widget">
+						<div class="about-widget">
+							<img src="{% static 'img/coloured logox.png' %}" alt="" style="margin-top: -1rem;">
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="footer-widget pl-0 pl-lg-5">
+						<div class="about-widget">
+							<h4 class="fw-title">Contact</h4>
+
+							<ul>
+								<li><i class="material-icons">phone</i>9522070070, 9522071071</li>
+								<li><i class="material-icons">email</i>sipa7even@gmail.com</li>
+								<li><i class="material-icons">map</i>2nd Floor, Malhar Mega Mall,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+																									Near C21 Mall, Vijay Nagar,<br>
+																									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+																									Indore 452001</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-sm-6">
+					<div class="footer-widget">
+						<h4 class="fw-title">Services</h4>
+						<ul>
+							<li><a href="{% url 'Events:Government' %}">Government</a></li>
+							<li><a href="{% url 'Events:Corporate' %}">Corporate</a></li>
+							<li><a href="{% url 'Events:Cultural' %}">Cultural</a></li>
+							<li><a href="{% url 'Events:Sports' %}">Sports</a></li>
+							<li><a href="{% url 'Events:Wedding' %}">Wedding</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-sm-6">
+					<div class="footer-widget pl-0 pl-lg-5">
+						<h4 class="fw-title">Contact Us</h4>
+						<ul>
+
+							<li><a href="{% url 'Events:Contact' %}" class="site-btn sb-gradient mt-5 mt-md-0">Contact Us</a></li>
+
+						</ul>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</footer>
+
+	<!-- Footer Section end -->
+
+	<section style=" background:linear-gradient(145deg, #f65d5d 0%, #fdb07d 100%); background-size: cover;">
+		<div class="container">
+			<div class="text-center text-muted" style="padding-top:1rem; padding-bottom:.1rem;">
+				<p>&#169; 2021 SIPA All Rights Reserved. | Developed by<b> <a style="color:#fe4164;" href="http://theasperteam.in">The Asper Team</a> </b></p>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- page end -->
+
+	<div class="back-to-top"><img src="{% static 'img/icons/up-arrow.png' %}" alt=""></div>
+
+	<!-- Search model -->
+	<div class="search-model set-bg" data-setbg="{% static 'img/search-bg.jpg' %}">
+		<div class="h-100 d-flex align-items-center justify-content-center">
+			<div class="search-close-switch"><i class="material-icons">close</i></div>
+			<form class="search-moderl-form">
+				<input type="text" id="search-input" placeholder="Search">
+				<button><img src="{% static 'img/icons/search-2.png' %}" alt=""></button>
+			</form>
+		</div>
+	</div>
+	<!-- Search model end -->
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="{% static 'js/vendor/jquery-3.2.1.min.js' %}"></script>
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'js/jquery.slicknav.min.js' %}"></script>
+	<script src="{% static 'js/owl.carousel.min.js' %}"></script>
+	<script src="{% static 'js/jquery.nice-select.min.js' %}"></script>
+	<script src="{% static 'js/jquery-ui.min.js' %}"></script>
+	<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+	<script src="{% static 'js/main.js' %}"></script>
+
+	</body>
+</html>

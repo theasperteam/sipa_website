@@ -1,0 +1,873 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.js' %}delivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css' %}">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'team_sipa/teamstyle.css' %}">
+    <link rel="stylesheet" href="{% static 'team_sipa/navbar.css' %}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css' %}" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" href="style/css/bootstrap.min.css' %}"> -->
+    <link rel="stylesheet" type="text/css" href="{% static 'team_sipa/style/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'team_sipa/style/css/plugins.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'team_sipa/style/revolution/css/settings.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'team_sipa/style/revolution/css/layers.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'team_sipa/style/revolution/css/navigation.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'team_sipa/style/type/type.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'team_sipa/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="style/css/color/purple.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--<link rel="stylesheet" type="text/css" href="style/css/color/purple.css' %}"> -->
+    <title>team</title>
+</head>
+
+<body>
+
+    <header class="top-header">
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+          <img height="70px" src="{% static 'img/nlogb2.png' %}" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-align-right text-light"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mr-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="{% url 'School:Index' %}">HOME
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'School:About' %}">ABOUT</a>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="dropdown">
+                <a href="#" class="nav-link">SCHOOL</a>
+                <div class="dropdown-content">
+                  <a href="{% url 'School:Dance' %}">DANCE</a>
+                  <a href="{% url 'School:Music' %}">MUSIC</a>
+                  <a href="{% url 'School:Acting' %}">ACTING</a>
+                  <a href="{% url 'School:Finearts' %}">FINE ARTS</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="dropdown">
+                <a href="#" class="nav-link">PROGRAMS</a>
+                <div class="dropdown-content">
+                  <a href="{% url 'School:Dance_Course' %}">DANCE</a>
+                  <a href="{% url 'School:Music_Course' %}">MUSIC</a>
+                  <a href="{% url 'School:Acting_Course' %}">ACTING</a>
+                  <a href="{% url 'School:Finearts' %}">FINE ARTS</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'School:Team' %}">TEAM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'School:Contact' %}">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+        </div>
+
+        <div class="container heading text-center">
+            <h1>TEAM</h1>
+            <p style="font-size: 1.0rem; color:white ;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae excepturi officia accusamus minus ipsa reiciendis ad maxime dolor, vel iusto!</p>
+        </div>
+
+    </header>
+
+    <h1 class="mainheading">FOUNDER</h1>
+    <div class="container founder">
+
+        <div class="row">
+            <div class="col-md-4 fimg">
+                <img class="founder-img" src="ben-parker-OhKElOkQ3RE-unsplash.jpg" alt="">
+            </div>
+            <div class="col-md-8 founder-content">
+                <h3>MR. SHREY</h3>
+                <p> Mr. Shry , is a Assistant Director Of film Industries Also Artistic Director & Choreographer who have Work with many production Yash Raj / Phantom / Zee / Mtv/ PEN/ Many More Production.<br> He is been Dancing & Teaching from seven years.
+                    He has performed in numerous live events with Dharmesh Yelande , Puneet Pathak ,Abhijeet Sawant, Mika Singh, Himesh Reshamiya. </p>
+                <p><b>WORK PROFILE</b></p>
+                <ul>
+                    <li>India’s got talent session 3 performer.</li>
+                    <li> Entertainment ke liye kuch bhi krega performer.</li>
+                    <li>Select DID session 3 top 100.</li>
+                    <li>Work with Shamak Davar show.</li>
+                    <li>Choreography for reality shows Jhalak Dikhla Ja.</li>
+                    <li> Choreography for reality shows Jra Nach Ke Dikha.</li>
+                    <li>Work with Prabhu Deva.</li>
+                </ul>
+                <p>Shry is a well known choreographer and a dance performer who is working professionally in the field of performing arts he decided to open an institute to provide the knowledge of Indian classical music, western music, Dance, Acting , Fine-art
+                    and instrumental package to the interested people. <b> The institute's name
+                        "Seven Institute of Performing Arts" is inspired by the seven colors, seven
+                        wonders, seven seas and seven SUR of music. She believes that "Music is a
+                        way of doing love, following your true passion, and shaping life together."</b>
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <!--board of director-->
+    <div class="container mb-5 pb-5">
+        <h1 class="mainheading">Board Of Director</h1>
+        <div class="board">
+            <div class="mard-deck">
+                <div class="card">
+                    <div class="image">
+                        <img src="ben-parker-OhKElOkQ3RE-unsplash.jpg" />
+                    </div>
+                    <div class="details">
+                        <div class="center">
+                            <h1>Anant Kumar Gupta<br><span>Board Member</span></h1>
+                            <p>Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="ben-parker-OhKElOkQ3RE-unsplash.jpg" />
+                    </div>
+                    <div class="details">
+                        <div class="center">
+                            <h1>Amar Singh Gaharwar<br><span>Board Member</span></h1>
+                            <p>Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="mainheading">About Our CEO</h1>
+    <div class="container mt-5" style="background-color: white;padding: 0px !important; border-radius: 10px;">
+        <div style="margin: 0px !important;" class="row ceo">
+            <div class="col-md-8">
+
+                <br>
+                <h3>Anant Kumar Gupta</h3>
+                <p class="ceopara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolore similique Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo impedit iusto aperiam ipsum, assumenda dolorum hic autem. Iste, delectus odit. ipsa nulla
+                    laborum voluptatem, rem recusandae sunt ab modi consequuntur doloremque quia vel alias quaerat, ut eligendi, nemo labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, eveniet.</p>
+
+            </div>
+            <div class="col-md-4 mt-3">
+                <img class="ceoimg" src="SmileModifiedKRAK.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <!--carousel-->
+    <h1 class="mainheading">Our Share Holders</h1>
+
+    <div class="wrapper light-wrapper" style="background-color: #fef8ee !important;">
+        <div class="container inner">
+
+            <div class="grid-view">
+                <div class="carousel owl-carousel gap-small text-center" data-margin="0" data-dots="true" data-autoplay="false" data-autoplay-timeout="5000" data-responsive='{"0":{"items": "1"}, "768":{"items": "2"}, "1024":{"items": "3"}, "1440":{"items": "4"}}'>
+                    <div class="item">
+                        <div class="item-inner">
+                            <div class="box bg-white shadow">
+                                <div class="img-blob blob1 img-blob blob1-m mb-20"><img src="style/images/art/te1.jpg" style="width: 7rem" alt="" /></div>
+                                <h5 class="mb-15">Ashirvad Tripathi</h5>
+                                <div class="meta mb-10">Financial Analyst</div>
+                                <p class="mb-10">Pellentesque ornare sem lacinia quam venenatis.</p>
+                                <ul class="social social-s ml-auto mb-10">
+                                    <li><a href="#"><i class="jam jam-twitter"></i></a></li>
+                                    <li><a href="#"><i class="jam jam-facebook"></i></a></li>
+                                    <li><a href="#"><i class="jam jam-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <!--/.box -->
+                        </div>
+                        <!--/.item-inner -->
+                    </div>
+                    <!--/.item -->
+                    <div class="item">
+                        <div class="item-inner">
+                            <div class="box bg-white shadow">
+                                <div class="img-blob blob1 img-blob blob1-m mb-20"><img src="style/images/art/te2.jpg" style="width: 7rem" alt="" /></div>
+                                <h5 class="mb-15">Anant Gupta</h5>
+                                <div class="meta mb-10">Marketing Specialist</div>
+                                <p class="mb-10">Pellentesque ornare sem lacinia quam venenatis.</p>
+                                <ul class="social social-s ml-auto mb-10">
+                                    <li><a href="#"><i class="jam jam-twitter"></i></a></li>
+                                    <li><a href="#"><i class="jam jam-facebook"></i></a></li>
+                                    <li><a href="#"><i class="jam jam-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <!--/.box -->
+                        </div>
+                        <!--/.item-inner -->
+                    </div>
+                    <!--/.item -->
+                    <div class="item">
+                        <div class="item-inner">
+                            <div class="box bg-white shadow">
+                                <div class="img-blob blob1 img-blob blob1-m mb-20"><img src="style/images/art/te3.jpg" style="width: 7rem" alt="" /></div>
+                                <h5 class="mb-15">Amar S. Gaharwar</h5>
+                                <div class="meta mb-10">Sales Manager</div>
+                                <p class="mb-10">Pellentesque ornare sem lacinia quam venenatis.</p>
+                                <ul class="social social-s ml-auto mb-10">
+                                    <li><a href="#"><i class="jam jam-twitter"></i></a></li>
+                                    <li><a href="#"><i class="jam jam-facebook"></i></a></li>
+                                    <li><a href="#"><i class="jam jam-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <!--/.box -->
+                        </div>
+                        <!--/.item-inner -->
+                    </div>
+                    <!--/.item -->
+                    <div class="item">
+                        <div class="item-inner">
+                            <div class="box bg-white shadow">
+                                <div class="img-blob blob1 img-blob blob1-m mb-20"><img src="style/images/art/te4.jpg" style="width: 7rem" alt="" /></div>
+                                <h5 class="mb-15">Praful Jain</h5>
+                                <div class="meta mb-10">Investment Planner</div>
+                                <p class="mb-10">Pellentesque ornare sem lacinia quam venenatis.</p>
+                                <ul class="social social-s ml-auto mb-10">
+                                    <li><a href="#"><i class="jam jam-twitter"></i></a></li>
+                                    <li><a href="#"><i class="jam jam-facebook"></i></a></li>
+                                    <li><a href="#"><i class="jam jam-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <!--/.box -->
+                        </div>
+                        <!--/.item-inner -->
+                    </div>
+                    <!--/.item -->
+                    <div class="item">
+                        <div class="item-inner">
+                            <div class="box bg-white shadow">
+                                <div class="img-blob blob1 img-blob blob1-m mb-20"><img src="style/images/art/te5.jpg" style="width: 7rem" alt="" /></div>
+                                <h5 class="mb-15">Suraj Das</h5>
+                                <div class="meta mb-10">Sales Specialist</div>
+                                <p class="mb-10">Pellentesque ornare sem lacinia quam venenatis.</p>
+                                <ul class="social social-s ml-auto mb-10">
+                                    <li><a href="#"><i class="jam jam-twitter"></i></a></li>
+                                    <li><a href="#"><i class="jam jam-facebook"></i></a></li>
+                                    <li><a href="#"><i class="jam jam-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <!--/.box -->
+                        </div>
+                        <!--/.item-inner -->
+                    </div>
+                    <!--/.item -->
+                    <div class="item">
+                        <div class="item-inner">
+                            <div class="box bg-white shadow">
+                                <div class="img-blob blob1 img-blob blob1-m mb-20"><img src="style/images/art/te6.jpg" style="width: 7rem" alt="" /></div>
+                                <h5 class="mb-15">Akash Goshwami</h5>
+                                <div class="meta mb-10">Financial Analyst</div>
+                                <p class="mb-10">Pellentesque ornare sem lacinia quam venenatis.</p>
+                                <ul class="social social-s ml-auto mb-10">
+                                    <li><a href="#"><i class="jam jam-twitter"></i></a></li>
+                                    <li><a href="#"><i class="jam jam-facebook"></i></a></li>
+                                    <li><a href="#"><i class="jam jam-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <!--/.box -->
+                        </div>
+                        <!--/.item-inner -->
+                    </div>
+                    <!--/.item -->
+                    <div class="item">
+                        <div class="item-inner">
+                            <div class="box bg-white shadow">
+                                <div class="img-blob blob1 img-blob blob1-m mb-20"><img src="style/images/art/te2.jpg" style="width: 7rem" alt="" /></div>
+                                <h5 class="mb-15">Nikita Jain</h5>
+                                <div class="meta mb-10">Marketing Specialist</div>
+                                <p class="mb-10">Pellentesque ornare sem lacinia quam venenatis.</p>
+                                <ul class="social social-s ml-auto mb-10">
+                                    <li><a href="#"><i class="jam jam-twitter"></i></a></li>
+                                    <li><a href="#"><i class="jam jam-facebook"></i></a></li>
+                                    <li><a href="#"><i class="jam jam-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <!--/.box -->
+                        </div>
+                        <!--/.item-inner -->
+                    </div>
+
+
+
+
+                </div>
+                <!-- /.owl-carousel -->
+            </div>
+            <!-- /.grid-view -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!--carousel-->
+    <h1 class="mainheading">Our Mentors</h1>
+    <!--mentors-->
+    <div class="wrapper light-wrapper" style="background-color: #fef8ee !important;">
+        <div class="container inner">
+
+            <div class="grid-view boxed light-gallery-wrapper text-center">
+                <div class="carousel owl-carousel gap-small" data-margin="0" data-dots="true" data-autoplay="false" data-autoplay-timeout="5000" data-responsive='{"0":{"items": "1"}, "768":{"items": "2"}, "992":{"items": "3"}}'>
+                    <div class="item">
+                        <div class="item-inner">
+                            <div class="box bg-white shadow p-30">
+                                <figure class="main overlay overlay2 rounded mb-30">
+                                    <a href="style/images/art/p1-full.jpg" class="lightbox"> <img src="style/images/art/p1.jpg" alt="" /></a>
+                                </figure>
+                                <div class="post-content">
+                                    <h2 class="post-title mb-10"><a href="portfolio-post.html">PIYUSH MISHRA</a></h2>
+                                    <div class="meta mb-0">Corporate, Application</div>
+                                </div>
+                                <!-- /.post-content -->
+                            </div>
+                            <!--/.item-inner -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+                    <!-- /.item -->
+                    <div class="item">
+                        <div class="item-inner">
+                            <div class="box bg-white shadow p-30">
+                                <figure class="main overlay overlay2 rounded mb-30">
+                                    <a href="style/images/art/p2-full.jpg" class="lightbox"> <img src="style/images/art/p1.jpg" alt="" /></a>
+                                </figure>
+                                <div class="post-content">
+                                    <h2 class="post-title mb-10"><a href="portfolio-post.html">ANBHAV SINHA</a></h2>
+                                    <div class="meta mb-0">Application</div>
+                                </div>
+                                <!-- /.post-content -->
+                            </div>
+                            <!--/.item-inner -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+                    <!-- /.item -->
+                    <div class="item">
+                        <div class="item-inner">
+                            <div class="box bg-white shadow p-30">
+                                <figure class="main overlay overlay2 rounded mb-30">
+                                    <a href="style/images/art/p3-full.jpg" class="lightbox"> <img src="style/images/art/p1.jpg" alt="" /></a>
+                                </figure>
+                                <div class="post-content">
+                                    <h2 class="post-title mb-10"><a href="portfolio-post.html">DHARMESH YELANDE </a></h2>
+                                    <div class="meta mb-0">Corporate, Branding</div>
+                                </div>
+                                <!-- /.post-content -->
+                            </div>
+                            <!--/.item-inner -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+                    <!-- /.item -->
+                    <div class="item">
+                        <div class="item-inner">
+                            <div class="box bg-white shadow p-30">
+                                <figure class="main overlay overlay2 rounded mb-30">
+                                    <a href="style/images/art/p4-full.jpg" class="lightbox"> <img src="style/images/art/p4.jpg" alt="" /></a>
+                                </figure>
+                                <div class="post-content">
+                                    <h2 class="post-title mb-10"><a href="portfolio-post.html"> PUNEET PATHAK</a></h2>
+                                    <div class="meta mb-0">Application</div>
+                                </div>
+                                <!-- /.post-content -->
+                            </div>
+                            <!--/.item-inner -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+                    <!-- /.item -->
+                    <div class="item">
+                        <div class="item-inner">
+                            <div class="box bg-white shadow p-30">
+                                <figure class="main overlay overlay2 rounded mb-30">
+                                    <a href="https://vimeo.com/90355541" class="lightbox"> <img src="style/images/art/p5.jpg" alt="" /></a>
+                                </figure>
+                                <div class="post-content">
+                                    <h2 class="post-title mb-10"><a href="portfolio-post.html">VISHAL MISHRA </a></h2>
+                                    <div class="meta mb-0">Video, Application</div>
+                                </div>
+                                <!-- /.post-content -->
+                            </div>
+                            <!--/.item-inner -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+                    <!-- /.item -->
+
+                    <!-- /.item -->
+                </div>
+                <!-- /.owl-carousel -->
+            </div>
+            <!-- /.grid-view -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!--mentors-->
+    <h1 class="mainheading">Our Team Member</h1>
+    <!--our team-->
+    <section id="team" class="section-bg" style="background-color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 wow fadeInUp">
+                    <div class="member">
+                        <div class="img-blob blob1 img-blob blob1-m mb-20"><img src="style/images/art/te1.jpg" class="img-fluid" style="width: 8rem" alt="" /></div>
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>Vivek Sharma</h4>
+                                <span>Acting </span>
+                                <div class="social">
+                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-facebook"></i></a>
+                                    <a href=""><i class="fa fa-google-plus"></i></a>
+                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="member">
+                        <div class="img-blob blob1 img-blob blob1-m mb-20"><img src="style/images/art/te1.jpg" class="img-fluid" style="width: 8rem" alt="" /></div>
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>Anil Pal </h4>
+                                <span>Choreographer</span>
+                                <div class="social">
+                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-facebook"></i></a>
+                                    <a href=""><i class="fa fa-google-plus"></i></a>
+                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1.7s">
+                    <div class="member">
+                        <div class="img-blob blob1 img-blob blob1-m mb-20"><img src="style/images/art/te1.jpg" class="img-fluid" style="width: 8rem" alt="" /></div>
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>Sonu Chouhan</h4>
+                                <span>Choreographer</span>
+                                <div class="social">
+                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-facebook"></i></a>
+                                    <a href=""><i class="fa fa-google-plus"></i></a>
+                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="member">
+                        <div class="img-blob blob1 img-blob blob1-m mb-20"><img src="style/images/art/te1.jpg" class="img-fluid" style="width: 8rem" alt="" /></div>
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>Sourav Hazare</h4>
+                                <span>Choreographer</span>
+                                <div class="social">
+                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-facebook"></i></a>
+                                    <a href=""><i class="fa fa-google-plus"></i></a>
+                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section id="team" class="section-bg" style="background-color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 wow fadeInUp">
+                    <div class="member">
+                        <div class="img-blob blob1 img-blob blob1-m mb-20"><img src="style/images/art/te1.jpg" class="img-fluid" style="width: 8rem" alt="" /></div>
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>Thapa</h4>
+                                <span>Choreographer</span>
+                                <div class="social">
+                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-facebook"></i></a>
+                                    <a href=""><i class="fa fa-google-plus"></i></a>
+                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="member">
+                        <div class="img-blob blob1 img-blob blob1-m mb-20"><img src="style/images/art/te1.jpg" class="img-fluid" style="width: 8rem" alt="" /></div>
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>Pooja Bhatacharya</h4>
+                                <span>Choreographer</span>
+                                <div class="social">
+                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-facebook"></i></a>
+                                    <a href=""><i class="fa fa-google-plus"></i></a>
+                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1.7s">
+                    <div class="member">
+                        <div class="img-blob blob1 img-blob blob1-m mb-20"><img src="style/images/art/te1.jpg" class="img-fluid" style="width: 8rem" alt="" /></div>
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>Rukmani VIjyakumar</h4>
+                                <span>Choreographer</span>
+                                <div class="social">
+                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-facebook"></i></a>
+                                    <a href=""><i class="fa fa-google-plus"></i></a>
+                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="member">
+                        <div class="img-blob blob1 img-blob blob1-m mb-20"><img src="style/images/art/te1.jpg" class="img-fluid" style="width: 8rem" alt="" /></div>
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>Rishav shrivas</h4>
+                                <span>Assistant Choreographer</span>
+                                <div class="social">
+                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-facebook"></i></a>
+                                    <a href=""><i class="fa fa-google-plus"></i></a>
+                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section id="team" class="section-bg" style="background-color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 wow fadeInUp">
+                    <div class="member">
+                        <div class="img-blob blob1 img-blob blob1-m mb-20"><img src="style/images/art/te1.jpg" class="img-fluid" style="width: 8rem" alt="" /></div>
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>Kajal </h4>
+                                <span>Assistant Choreographer</span>
+                                <div class="social">
+                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-facebook"></i></a>
+                                    <a href=""><i class="fa fa-google-plus"></i></a>
+                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="member">
+                        <div class="img-blob blob1 img-blob blob1-m mb-20"><img src="style/images/art/te1.jpg" class="img-fluid" style="width: 8rem" alt="" /></div>
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>Ajit Burman</h4>
+                                <span>Assistant Choreographer</span>
+                                <div class="social">
+                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-facebook"></i></a>
+                                    <a href=""><i class="fa fa-google-plus"></i></a>
+                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1.7s">
+                    <div class="member">
+                        <div class="img-blob blob1 img-blob blob1-m mb-20"><img src="style/images/art/te1.jpg" class="img-fluid" style="width: 8rem" alt="" /></div>
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>Nupur aiyar</h4>
+                                <span>Assistant Choreographer</span>
+                                <div class="social">
+                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-facebook"></i></a>
+                                    <a href=""><i class="fa fa-google-plus"></i></a>
+                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="member">
+                        <div class="img-blob blob1 img-blob blob1-m mb-20"><img src="style/images/art/te1.jpg" class="img-fluid" style="width: 8rem" alt="" /></div>
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>Rajat Tejawat & Team</h4>
+                                <span>Music</span>
+                                <div class="social">
+                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-facebook"></i></a>
+                                    <a href=""><i class="fa fa-google-plus"></i></a>
+                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!--our team-->
+    <!--management staff-->
+    <h1 class="mainheading">MANAGEMENT STAFF</h1>
+
+
+    <div class="container">
+        <div class="wrapper light-wrapper" style="background-color: white !important; padding:40px 10px 20px 10px;">
+            <div class="container inner">
+
+                <div class="carousel owl-carousel clients" data-margin="30" data-loop="true" data-dots="false" data-autoplay="true" data-autoplay-timeout="3000" data-responsive='{"0":{"items": "2"}, "768":{"items": "4"}, "992":{"items": "5"}, "1140":{"items": "6"}}'>
+                    <div class="item pl-15 pr-15"><img src="ben-parker-OhKElOkQ3RE-unsplash.jpg" alt="" />
+                        <h4 class="manage-head">– Akash Goswami</h4>
+                        <p class="manage-para"><b>Senior Manager</b></p>
+                        <p class="manage-para">Indore – Head Office</p>
+                    </div>
+                    <div class="item pl-15 pr-15"><img src="ben-parker-OhKElOkQ3RE-unsplash.jpg" alt="" />
+                        <h4 class="manage-head">Lorem, ipsum.</h4>
+                        <p class="manage-para"><b>Senior Manager</b></p>
+                        <p class="manage-para">Lorem, ipsum.</p>
+                    </div>
+                    <div class="item pl-15 pr-15"><img src="ben-parker-OhKElOkQ3RE-unsplash.jpg" alt="" />
+                        <h4 class="manage-head">Lorem, ipsum.</h4>
+                        <p class="manage-para"><b>Senior Manager</b></p>
+                        <p class="manage-para">Lorem, ipsum.</p>
+                    </div>
+                    <div class="item pl-15 pr-15"><img src="ben-parker-OhKElOkQ3RE-unsplash.jpg" alt="" />
+                        <h4 class="manage-head">Lorem, ipsum.</h4>
+                        <p class="manage-para"><b>Senior Manager</b></p>
+                        <p class="manage-para">Lorem, ipsum.</p>
+                    </div>
+                    <div class="item pl-15 pr-15"><img src="ben-parker-OhKElOkQ3RE-unsplash.jpg" alt="" />
+                        <h4 class="manage-head">Lorem, ipsum.</h4>
+                        <p class="manage-para"><b>Senior Manager</b></p>
+                        <p class="manage-para">Lorem, ipsum.</p>
+                    </div>
+                    <div class="item pl-15 pr-15"><img src="ben-parker-OhKElOkQ3RE-unsplash.jpg" alt="" />
+                        <h4 class="manage-head">Lorem, ipsum.</h4>
+                        <p class="manage-para"><b>Senior Manager</b></p>
+                        <p class="manage-para">Lorem, ipsum.</p>
+                    </div>
+                    <div class="item pl-15 pr-15"><img src="ben-parker-OhKElOkQ3RE-unsplash.jpg" alt="" />
+                        <h4 class="manage-head">Lorem, ipsum.</h4>
+                        <p class="manage-para"><b>Senior Manager</b></p>
+                        <p class="manage-para">Lorem, ipsum.</p>
+                    </div>
+                    <div class="item pl-15 pr-15"><img src="ben-parker-OhKElOkQ3RE-unsplash.jpg" alt="" />
+                        <h4 class="manage-head">Lorem, ipsum.</h4>
+                        <p class="manage-para"><b>Senior Manager</b></p>
+                        <p class="manage-para">Lorem, ipsum.</p>
+                    </div>
+                    <div class="item pl-15 pr-15"><img src="ben-parker-OhKElOkQ3RE-unsplash.jpg" alt="" />
+                        <h4 class="manage-head">Lorem, ipsum.</h4>
+                        <p class="manage-para"><b>Senior Manager</b></p>
+                        <p class="manage-para">Lorem, ipsum.</p>
+                    </div>
+                    <div class="item pl-15 pr-15"><img src="ben-parker-OhKElOkQ3RE-unsplash.jpg" alt="" />
+                        <h4 class="manage-head">Lorem, ipsum.</h4>
+                        <p class="manage-para"><b>Senior Manager</b></p>
+                        <p class="manage-para">Lorem, ipsum.</p>
+                    </div>
+                    <div class="item pl-15 pr-15"><img src="ben-parker-OhKElOkQ3RE-unsplash.jpg" alt="" />
+                        <h4 class="manage-head">Lorem, ipsum.</h4>
+                        <p class="manage-para"><b>Senior Manager</b></p>
+                        <p class="manage-para">Lorem, ipsum.</p>
+                    </div>
+                </div>
+                <!-- /.owl-carousel -->
+            </div>
+            <!-- /.container -->
+        </div>
+    </div>
+
+    <!--managemnt staff-->
+    <!--footer-->
+    <footer id="footer" class="section-bg">
+        <div class="footer-top">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-lg-6">
+
+                        <div class="row">
+
+                            <div class="col-sm-6">
+
+                                <div class="footer-info">
+                                    <h3>SIPA</h3>
+                                    <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat
+                                        consequat mauris nunc congue.</p>
+                                </div>
+
+                                <div class="footer-newsletter">
+                                    <h4>Our Newsletter</h4>
+                                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem.</p>
+                                    <form action="" method="post">
+                                        <input type="email" name="email"><input type="submit" value="Subscribe">
+                                    </form>
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="footer-links">
+                                    <h4>Useful Links</h4>
+                                    <ul>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">About us</a></li>
+                                        <li><a href="#">Dance</a></li>
+                                        <li><a href="#">Music</a></li>
+                                        <li><a href="#">FineArts</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="footer-links">
+                                    <h4>Contact Us</h4>
+                                    <p>
+                                        A108 Adam Street <br> New York, NY 535022<br> United States <br>
+                                        <strong>Phone:</strong> +1 5589 55488 55<br>
+                                        <strong>Email:</strong> info@example.com<br>
+                                    </p>
+                                </div>
+
+                                <div class="social-links btn">
+                                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                                    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                                    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <div class="form">
+
+                            <h4>Send us a message</h4>
+                            <p>Eos ipsa est voluptates. Nostrum nam libero ipsa vero. Debitis quasi sit eaque numquam similique commodi harum aut temporibus.</p>
+                            <form action="" method="post" role="form" class="contactForm">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                    <div class="validation"></div>
+                                </div>
+
+                                <div id="sendmessage">Your message has been sent. Thank you!</div>
+                                <div id="errormessage"></div>
+
+                                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+                            </form>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+    <!-- #footer -->
+
+    <script src="{% static 'team_sipa/style/js/jquery.min.js' %}"></script>
+    <script src="{% static 'team_sipa/style/js/popper.min.js' %}"></script>
+    <script src="{% static 'team_sipa/style/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'team_sipa/revolution/js/jquery.themepunch.tools.min.js' %}"></script>
+    <script src="{% static 'team_sipa/revolution/js/jquery.themepunch.revolution.min.js' %}"></script>
+    <script src="{% static 'team_sipa/revolution/js/extensions/revolution.extension.actions.min.js' %}"></script>
+    <script src="{% static 'team_sipa/revolution/js/extensions/revolution.extension.carousel.min.js' %}"></script>
+    <script src="{% static 'team_sipa/revolution/js/extensions/revolution.extension.kenburn.min.js' %}"></script>
+    <script src="{% static 'team_sipa/revolution/js/extensions/revolution.extension.layeranimation.min.js' %}"></script>
+    <script src="{% static 'team_sipa/revolution/js/extensions/revolution.extension.migration.min.js' %}"></script>
+    <script src="{% static 'team_sipa/revolution/js/extensions/revolution.extension.navigation.min.js' %}"></script>
+    <script src="{% static 'team_sipa/revolution/js/extensions/revolution.extension.parallax.min.js' %}"></script>
+    <script src="{% static 'team_sipa/revolution/js/extensions/revolution.extension.slideanims.min.js' %}"></script>
+    <script src="{% static 'team_sipa/revolution/js/extensions/revolution.extension.video.min.js' %}"></script>
+    <script src="{% static 'team_sipa/style/js/plugins.js' %}"></script>
+    <script src="{% static 'team_sipa/index.js' %}"></script>
+    <script src="{% static 'team_sipa/style/js/scripts.js' %}"></script>
+</body>
+
+</html>

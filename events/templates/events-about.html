@@ -1,0 +1,470 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title>SIPA | Events | About</title>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}"/>
+	<link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}"/>
+	<link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}"/>
+	<link rel="stylesheet" href="{% static 'css/nice-select.css' %}"/>
+	<link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}"/>
+	<link rel="stylesheet" href="{% static 'css/slicknav.min.css' %}"/>
+	<link rel="stylesheet" href="{% static 'css/animate.css' %}"/>
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+
+	<!--web-icon------------------->
+	<link href="{% static 'favicon.ico' %}" rel="shortcut icon"/>
+
+
+
+
+
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+<!-- Header Section -->
+	<header class="header-section">
+
+		<div class="header-bottom">
+			<a href="{% url 'Main:Index' %}" class="site-logo">
+				<img src="{% static 'img/nlogb2.png' %}" alt="">
+			</a>
+			<div class="hb-right">
+
+				<div class="hb-switch" id="infor-switch">
+					<img src="{% static 'img/icons/bars.png' %}" alt="">
+				</div>
+			</div>
+			<div class="container fwsb">
+				<ul class="main-menu">
+					<li><a href="{% url 'Events:Index' %}" >Home</a></li>
+					<li><a href="{% url 'Events:About' %}" class="active">About</a></li>
+					<li><a href="#">Services</a>
+						<ul class="sub-menu">
+							<li><a href="{% url 'Events:Corporate' %}">Corporate</a></li>
+							<li><a href="{% url 'Events:Wedding' %}">Wedding</a></li>
+							<li><a href="{% url 'Events:Government' %}">Government</a></li>
+							<li><a href="{% url 'Events:Sports' %}">Sports</a></li>
+							<li><a href="{% url 'Events:Cultural' %}">Cultural</a></li>
+						</ul>
+					</li>
+					<li><a href="{% url 'Events:Team' %}">Our Team</a>
+					</li>
+					<li><a href="{% url 'Events:Gallery' %}">Gallery</a></li>
+					<li><a href="{% url 'Events:Contact' %}">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<!-- Header Section end -->
+
+
+	<!-- Infor Model -->
+	<div class="infor-model-warp">
+		<div class="infor-model d-flex align-items-center">
+			<div class="infor-close">
+				<i class="material-icons">close</i>
+			</div>
+			<div class="infor-middle">
+				<a href="#" class="infor-logo ">
+					<img src="{% static 'img/wfc1.png' %}" alt="">
+				</a>
+				<p>We are efficient in handling every conceivable type of event, whether corporate, party, wedding, or any other event. Events range from small group meetings to arena-size conferences, concert sound systems, or anything else; nothing is difficult for us to handle.</p>
+				
+				<form class="infor-form mt-5">
+					<input type="text" placeholder="Your Email">
+					<button><img src="{% static 'img/icons/send.png' %}" alt=""></button>
+				</form>
+				<div class="insta-social">
+					<a href="https://www.linkedin.com/company/seven-institute-of-performing-arts/"><i class="fa fa-linkedin"></i></a>
+					
+					<a href="https://www.instagram.com/sipa.dance/
+					"><i class="fa fa-instagram"></i></a>
+					<a href="https://www.facebook.com/7institute/
+					"><i class="fa fa-facebook"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Infor Model end -->
+	                                                                              
+	<!-- Page top Section -->
+	<section class="page-top-section set-bg" data-setbg="{% static 'img/header-bg/about-header-2.jpg' %}">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7 m-auto text-white">
+					<h1>ABOUT US</h1>
+					<hr class="hrtop">
+					<p>Let's build the bond from scratch.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Page top Section end -->
+	
+
+	<section class="aboutsection about mt-3 mb-3">
+
+        <div class="container wow bounceInUp" data-wow-duration="1.7s">
+          <div class="row justify-content-center align-items-center">
+  
+            <div class="col-lg-5 col-md-6">
+              <div class="about-img">
+                <img src="{% static 'img/about/who-we-are.jpg' %}" alt="">
+              </div>
+            </div>
+  
+            <div class="col-lg-7 col-md-6 ms-0 ms-md-5">
+              <div class="about-content">
+                <h2>Who we are ?</h2>
+                <hr class="lines m-0 mt-3">
+                <p class="mt-5">Behind every great event, there is a creative story. The story is always born out of a desire to create a truly memorable event by focusing on valuable clients.  The business was founded years back following our dream to have a successful small, bespoke yet passionate and experienced team to provide value for services. We have picked a group because of their obsession with the industry and their extensive years of experience and dedication for the event management industry.
+
+					At SIPA Events, we go the extra mile to deliver ultimate satisfaction and perfection in every event we manage. We offer several services to help plan everything smoothly from start to finish and take your all stress away. This is exactly what we do every day and our expertise, combined years of experience, and knowledge in event management and audio visual production allow us to serve the customers personally and professionally.</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </section>
+	  <section class="aboutsection about mt-3 mb-3">
+
+        <div class="container wow bounceInUp" data-wow-duration="1.7s">
+          <div class="row justify-content-center align-items-center">
+  
+            <div class="col-lg-7 col-md-6 ms-0 ms-md-5">
+				<div class="about-content">
+				  <h2>What we do ?</h2>
+				  <hr class="lines m-0 mt-3">
+				  <p class="mt-5">We at SIPA Events, offer 360 degree panorama services for corporate events, weddings, government events, sports, cultural, award ceremonies, etc. Over the years we have emerged as an eminent name in the field of corporate and personal event management. We specialize in executing exclusive events, thereby distinguishing ourselves as an organization of repute. Our proficient and hospitable team makes sure that our clients have hassle free events that are worth cherishing. Our experts gauge clients’ needs and give a personalized solution to fulfill the same. On the back of our extensive experience, we analyze the requirements and vision of clients and provide them customized services. Our years of experience and innovative approach help us interpret the requirements and enable us to execute a successful event that not just meets but exceeds the anticipations.
+				  </p>
+				</div>
+			  </div>
+            <div class="col-lg-5 col-md-6">
+              <div class="about-img">
+                <img src="{% static 'img/about/what-we-do' %}" alt="">
+              </div>
+            </div>
+  
+          </div>
+        </div>
+  
+      </section>
+
+	 
+
+	  <section class="trainer-section overflow-hidden spad dbg">
+		<div class="container text-center ">
+			<div class="section-title text-center mb-5">
+				<h2>Our team</h2>
+				<hr class="lines mt-3 mb-5">
+
+			</div>
+			<div class="trainer-slider owl-carousel">
+				
+				<div class="ts-item text-center">
+					<figure class=" img-blob blob1 mb-25 "><img src="{% static 'img/team/shrey.jpg' %}" style="width: 15rem" alt="" /></figure>
+					<h4 class="mb-15">Shry Mishra</h4>
+					<div class="meta mb-5 text-muted text-uppercase">Creative Head & Production Head</div>
+					
+				</div>
+
+
+				<div class="ts-item text-center">
+					<figure class=" img-blob blob1 mb-25 "><img src="{% static 'img/team/Akash.jpg' %}" style="width: 15rem" alt="" /></figure>
+					<h4 class="mb-15">Aakash Goswami</h4>
+					<div class="meta mb-5 text-muted text-uppercase">Event Planner</div>
+					
+				</div>
+				<div class="ts-item text-center">
+					<figure class=" img-blob blob1 mb-25 "><img src="{% static 'img/team/chandra' %}" style="width: 15rem" alt="" /></figure>
+					<h4 class="mb-15">Chandra Mohan Pathak</h4>
+					<div class="meta mb-5 text-muted text-uppercase">Content writer & stage Handler
+					</div>
+				</div>
+
+				<div class="ts-item text-center">
+					<figure class=" img-blob blob1 mb-25 "><img src="{% static 'img/team/ashirwad' %}" style="width: 15rem" alt="" /></figure>
+					<h4 class="mb-15">Ashirwad Tripathi</h4>
+					<div class="meta mb-5 text-muted text-uppercase"> Stage Designer</div>
+					
+				</div>
+
+				<div class="ts-item text-center">
+					<figure class=" img-blob blob1 mb-25 "><img src="{% static 'img/team/Nikita.jpg' %}" style="width: 15rem; object-fit: cover;" alt="" /></figure>
+					<h4 class="mb-15">Nikita Jain</h4>
+					<div class="meta mb-5 text-muted text-uppercase">Event manager
+					</div>
+				</div>
+				<div class="ts-item text-center">
+					<figure class=" img-blob blob1 mb-25 "><img src="{% static 'img/team/Shilpi.jpg' %}" style="width: 15rem" alt="" /></figure>
+					<h4 class="mb-15">Shilpi Gupta</h4>
+					<div class="meta mb-5 text-muted text-uppercase">Decorator</div>
+					
+				</div>
+				
+			</div>
+
+			<a href="{% url 'Events:Team' %}" class="site-btn sb-gradient mt-5">Show More</a>
+		</div>
+	</section>
+	<section class="aboutsection about">
+
+        <div class="container wow bounceInUp" data-wow-duration="1.7s">
+          <div class="row justify-content-center align-items-center">
+  
+            <div class="col-lg-5 col-md-6">
+              <div class="about-img">
+                <img src="{% static 'img/about/mission' %}" alt="">
+              </div>
+            </div>
+  
+            <div class="col-lg-7 col-md-6 ms-0 ms-md-5">
+              <div class="about-content">
+                <h2>Our Mission</h2>
+                <hr class="lines m-0 mt-3">
+                <p class="mt-5">As one of the creative and leading event management company in Central India,
+					We always try new creations For our customers. We are an exceptional creative events agency and always challenge ourselves to come up with something extraordinary, unusual, and amazingly challenging. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </section>
+	  <section class="aboutsection about">
+
+        <div class="container wow bounceInUp" data-wow-duration="1.7s">
+          <div class="row justify-content-center align-items-center">
+  
+            <div class="col-lg-7 col-md-6 ms-0 ms-md-5">
+				<div class="about-content">
+				  <h2>Our Vision</h2>
+				  <hr class="lines m-0 mt-3">
+				  <p class="mt-5">SIPA Events endeavors to be the most leading energetic and vibrant globally acclaimed Event Management Company fueled by imagination, innovative ideas and passion of bestowing our esteemed clients with unforgettable memories. BY 2020, we aim to become the leading Event management company creating world class events and infusing newer talents, thereby, contributing to the glamour industry in a substantial way.
+				  </p>
+				</div>
+			  </div>
+            <div class="col-lg-5 col-md-6">
+              <div class="about-img">
+                <img src="{% static 'img/about/vision' %}" alt="">
+              </div>
+            </div>
+  
+          </div>
+        </div>
+  
+      </section>
+	  <section class="review-section spad set-bg pb-5 pt-5 mt-5" data-setbg="">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-11 m-auto">
+					<div class="review-slider owl-carousel">
+						<div class="review-item">
+						  <img src="{% static 'img/events/1.jpg' %}"  style="height: 30rem; object-fit: cover;" alt="" srcset="">
+						</div>
+						<div class="review-item">
+							<img src="{% static 'img/events/2.jpg' %}" style="height: 30rem; object-fit: cover;" alt="" srcset="">
+						</div>
+						<div class="review-item">
+							<img src="{% static 'img/events/3.jpg' %}" style="height: 30rem; object-fit: cover;" alt="" srcset="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="" class="aboutsection about ">
+
+        <div class="container wow bounceInUp" data-wow-duration="1.7s">
+          <div class="row justify-content-center align-items-center">
+  
+            <div class="col-lg-5 col-md-6">
+              <div class="about-img">
+                <img src="{% static 'img/about/philosophy' %}" alt="">
+              </div>
+            </div>
+  
+            <div class="col-lg-7 col-md-6 ms-0 ms-md-5">
+              <div class="about-content">
+                <h2>Our Philosophy</h2>
+                <hr class="lines m-0 mt-3">
+                <p class="mt-5">Our work philosophy is a bit different. Unlike others, we want to win with our customers. We want to develop a true, long-term, and trusted relationship that our customers enjoy, respect, and know that we always take responsibility. Our mission is to make our clients' events better and better continuously.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </section>
+	  <section id="" class="aboutsection about  mb-3">
+
+        <div class="container wow bounceInUp" data-wow-duration="1.7s">
+          <div class="row justify-content-center align-items-center">
+  
+            <div class="col-lg-7 col-md-6 ms-0 ms-md-5">
+				<div class="about-content">
+				  <h2>What makes us different ?</h2>
+				  <hr class="lines m-0 mt-3">
+				  <p class="mt-5">We like the variation because it helps us to be an expert and professional event planner company. That’s something that makes us different from others— we are open for challenges, and always ready to serve the best and exceed the expectations.
+				  </p>
+				</div>
+			  </div>
+            <div class="col-lg-5 col-md-6">
+              <div class="about-img">
+                <img src="{% static 'img/about/what-makes-us-diff' %}" alt="">
+              </div>
+            </div>
+  
+          </div>
+        </div>
+  
+      </section>
+	
+
+
+	  <section id="call-to-action">
+		<div class="container">
+		  <div class="row">
+			<div class="col-lg-9 text-center text-lg-left">
+			  <h3 class="cta-title mb-2">Contact Us</h3>
+			  <p class="cta-text">We are efficient in handling every conceivable type of event, whether corporate, party, wedding, or any other event. Events range from small group meetings to arena-size conferences, concert sound systems, or anything else; nothing is difficult for us to handle.
+			</p>
+			</div>
+			<div class="col-lg-3 cta-btn-container text-center">
+			  <a class="cta-btn align-middle mt-4" href="{% url 'Events:Contact' %}">Contact</a>
+			</div>
+		  </div>
+  
+		</div>
+	  </section>
+
+	  
+	  <!-- Modal -->
+	  <div class="modal fade" id="myModalg" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document" style="max-width: 40rem;">
+		  <div class="modal-content">
+	  
+			
+			<div class="modal-body">
+	  
+			 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			  </button>        	  
+					  <img src="{% static 'img/classes/1.jpg' %}" alt="" id="image" class="img-fluid">			  			  
+			</div>
+	  
+		  </div>
+		</div>
+	  </div> 
+		<!-- Gallery Section end -->
+
+	<!-- Footer Section -->
+	<footer class="footer-section" style="background-color: #f9f2f0;">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-sm-6">
+					<div class="footer-widget">
+						<div class="about-widget">
+							<img src="{% static 'img/coloured logox.png' %}" alt="" style="margin-top: -1rem;">
+						
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="footer-widget pl-0 pl-lg-5">
+						<div class="about-widget">
+							<h4 class="fw-title">Contact</h4>
+							
+							<ul>
+								<li><i class="material-icons">phone</i>9522070070, 9522071071</li>
+								<li><i class="material-icons">email</i>sipa7even@gmail.com</li>
+								<li><i class="material-icons">map</i>2nd Floor, Malhar Mega Mall,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+																									Near C21 Mall, Vijay Nagar,<br>
+																									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+																									Indore 452001</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-sm-6">
+					<div class="footer-widget">
+						<h4 class="fw-title">Services</h4>
+						<ul>
+							<li><a href="{% url 'Events:Government' %}">Government</a></li>
+							<li><a href="{% url 'Events:Corporate' %}">Corporate</a></li>
+							<li><a href="{% url 'Events:Cultural' %}">Cultural</a></li>
+							<li><a href="{% url 'Events:Sports' %}">Sports</a></li>
+							<li><a href="{% url 'Events:Wedding' %}">Wedding</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-sm-6">
+					<div class="footer-widget pl-0 pl-lg-5">
+						<h4 class="fw-title">Contact Us</h4>
+						<ul>
+
+							<li><a href="{% url 'Events:Contact' %}" class="site-btn sb-gradient mt-5 mt-md-0">Contact Us</a></li>
+
+						</ul>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</footer>
+
+	<!-- Footer Section end -->
+
+	<section style=" background:linear-gradient(145deg, #f65d5d 0%, #fdb07d 100%); background-size: cover;">
+		<div class="container">
+			<div class="text-center text-muted" style="padding-top:1rem; padding-bottom:.1rem;">
+				<p>&#169; 2021 SIPA All Rights Reserved. | Developed by<b> <a style="color:#fe4164;" href="http://theasperteam.in">The Asper Team</a> </b></p>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- page end -->
+
+	<div class="back-to-top"><img src="{% static 'img/icons/up-arrow.png' %}" alt=""></div>
+
+	<!-- Search model -->
+	<div class="search-model set-bg" data-setbg="{% static 'img/search-bg.jpg' %}">
+		<div class="h-100 d-flex align-items-center justify-content-center">
+			<div class="search-close-switch"><i class="material-icons">close</i></div>
+			<form class="search-moderl-form">
+				<input type="text" id="search-input" placeholder="Search">
+				<button><img src="{% static 'img/icons/search-2.png' %}" alt=""></button>
+			</form>
+		</div>
+	</div>
+	<!-- Search model end -->
+	
+	<!--====== Javascripts & Jquery ======-->
+	<script src="{% static 'js/vendor/jquery-3.2.1.min.js' %}"></script>
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'js/jquery.slicknav.min.js' %}"></script>
+	<script src="{% static 'js/owl.carousel.min.js' %}"></script>
+	<script src="{% static 'js/jquery.nice-select.min.js' %}"></script>
+	<script src="{% static 'js/jquery-ui.min.js' %}"></script>
+	<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+	<script src="{% static 'js/main.js' %}"></script>
+
+	</body>
+</html>
